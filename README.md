@@ -1,4 +1,4 @@
-# 🔬 RAG-Powered Research Paper Discovery & Workflow Generator
+# 🔬 RAG-Powered Research Paper Retrieval & Summarization
 
 > *Semantic search meets LLM-powered workflows. Stop drowning in PDFs, start building.*
 
