@@ -86,7 +86,6 @@ chunk_text(text, chunk_size=525, overlap=250)  # Tune for your domain
 - **LLM**: DeepSeek-R1 7B via Ollama (local inference)
 - **Chunking**: 525 words with 250-word overlap
 
-**Scalability**: Handles <100k documents efficiently. For larger collections, switch to `IndexIVFFlat` or `IndexHNSW`.
 
 
 ## 🗺️ Future Improvements
@@ -97,16 +96,6 @@ chunk_text(text, chunk_size=525, overlap=250)  # Tune for your domain
 - [ ] Citation graph integration
 - [ ] Automated metadata extraction
 
-## 📝 Citation
-
-```bibtex
-@software{rag_research_assistant,
-  author = {Your Name},
-  title = {RAG-Powered Research Paper Discovery System},
-  year = {2024},
-  url = {https://github.com/yourusername/rag-research-assistant}
-}
-```
 
 ## 📜 License
 
