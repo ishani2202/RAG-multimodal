@@ -88,12 +88,6 @@ chunk_text(text, chunk_size=525, overlap=250)  # Tune for your domain
 
 **Scalability**: Handles <100k documents efficiently. For larger collections, switch to `IndexIVFFlat` or `IndexHNSW`.
 
-## ⚠️ Known Limitations
-
-- Hardcoded queries (no CLI/UI yet)
-- No OCR for scanned PDFs
-- Re-indexes entire collection on each run
-- Requires manual `metadata.json` curation
 
 ## 🗺️ Future Improvements
 
